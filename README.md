@@ -81,5 +81,5 @@ schedule.scheduleJob("0 3 * * *", async () => {
 
 ### ⚠️ Problemas conhecidos
 
-#### 1. Certifique-se de que a configuração do Firebase no arquivo .env está correta.
-#### 2. O cron job depende do agendamento em um servidor ativo (ou seja, não funciona se o servidor estiver inativo).
+##### 1. Certifique-se de que a configuração do Firebase no arquivo .env está correta.
+##### 2. O cron job depende do agendamento em um servidor ativo (ou seja, não funciona se o servidor estiver inativo).
